@@ -20,3 +20,31 @@
   font-weight: normal;
   font-style: normal;
 }
+
+/* Basic Reset: Needed Only */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p {
+  text-wrap: pretty;
+  overflow-wrap: break-word;
+}
+h2 {
+  text-wrap: balance;
+  overflow-wrap: break-word;
+}
