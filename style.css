@@ -1,0 +1,22 @@
+/* Fonts */
+@font-face {
+  font-family: "lobster_1.3regular";
+  src: url("fonts/lobster_1.3-webfont.woff2") format("woff2"),
+    url("fonts/lobster_1.3-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "open_sanslight";
+  src: url("fonts/opensans-light-webfont.woff2") format("woff2"),
+    url("fonts/opensans-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ralewayregular";
+  src: url("fonts/raleway-regular-webfont.woff2") format("woff2"),
+    url("fonts/raleway-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
