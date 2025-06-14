@@ -58,14 +58,27 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background: no-repeat center url(img/left-bg.jpg);
 }
 .right-col {
   flex: 1 1 60vw;
 }
 .logo {
   text-align: center;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(193 193 193 / 26%);
   margin-top: 30%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+  gap: 8px;
+
+  & span {
+    font-family: "lobster_1.3regular";
+    color: #fff;
+    font-size: clamp(1.5rem, 5vw, 5rem);
+    text-shadow: 5px 5px 2px black;
+  }
 }
 .credits {
   text-align: center;
