@@ -20,6 +20,9 @@
   font-weight: normal;
   font-style: normal;
 }
+:root {
+  --primary-color: #fee6cc;
+}
 
 /* Basic Reset: Needed Only */
 *,
@@ -65,7 +68,7 @@ body {
 }
 .logo {
   text-align: center;
-  background: rgb(193 193 193 / 26%);
+  background: #fee6cc42;
   margin-top: 30%;
   align-items: center;
   display: flex;
@@ -75,13 +78,21 @@ body {
 
   & span {
     font-family: "lobster_1.3regular";
-    color: #fff;
+    color: #fee6cc;
     font-size: clamp(1.5rem, 5vw, 5rem);
     text-shadow: 5px 5px 2px black;
   }
 }
 .credits {
   text-align: center;
+  font-family: "open_sanslight";
+  color: #fff;
+  font-size: 0.75rem;
+  padding-bottom: 12px;
+
+  & a {
+    color: var(--primary-color);
+  }
 }
 p {
   width: clamp(45ch, 50%, 75ch);
