@@ -48,3 +48,32 @@ h2 {
   text-wrap: balance;
   overflow-wrap: break-word;
 }
+/* Base Styles */
+body {
+  display: flex;
+  min-height: 100vh;
+}
+.left-col {
+  flex: 1 1 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.right-col {
+  flex: 1 1 60vw;
+}
+.logo {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  margin-top: 30%;
+}
+.credits {
+  text-align: center;
+}
+p {
+  width: clamp(45ch, 50%, 75ch);
+}
+.form-controls > div {
+  display: flex;
+  gap: 20px;
+}
