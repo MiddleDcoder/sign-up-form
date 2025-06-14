@@ -6,5 +6,73 @@
     <title>Sign-up Form</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="left-col">
+      <div class="logo">
+        <img src="img/logo-coffee-cup.png" width="105" />
+        <span>Coffee Talks</span>
+      </div>
+      <div class="credits">
+        Photo by
+        <a
+          href="https://unsplash.com/photos/a-cup-of-coffee-on-a-desk-GeEPWiOroxs"
+          >Hernan Gonzalez</a
+        >
+        on <a href="https://unsplash.com/">Unsplash</a>
+        <br />
+        <a href="https://www.flaticon.com/free-icons/food" title="food icons"
+          >Food icons created by Freepik - Flaticon</a
+        >
+      </div>
+    </div>
+    <div class="right-col">
+      <div class="intro-text">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams.
+        </p>
+        <p>Sign up now to get started.</p>
+        <br />
+        <p>You know you want to.</p>
+      </div>
+      <form>
+        <div class="form-controls">
+          <h2>Let's do this!</h2>
+          <div>
+            <label for="first_name">FIRST NAME:</label>
+            <div><input type="text" id="first_name" name="first_name" /></div>
+            <label for="last_name">LAST NAME:</label>
+            <div><input type="text" id="last_name" name="last_name" /></div>
+          </div>
+          <div>
+            <label for="confirm_email">EMAIL:</label>
+            <div><input type="email" id="user_email" name="email" /></div>
+            <label for="phone_number">PHONE NUMBER:</label>
+            <div>
+              <input type="tel" id="phone_number" name="phone_number" />
+            </div>
+          </div>
+          <div>
+            <label for="user_password">PASSWORD:</label>
+            <div>
+              <input type="password" id="user_password" name="password" />
+            </div>
+            <label for="confirm_password">CONFIRM PASSWORD:</label>
+            <div>
+              <input
+                type="password"
+                id="confirm_password"
+                name="confirm_password"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="links">
+          <button type="submit">Create Account</button>
+          <br />
+          <span>Already have an account? <a href="#">Log in</a></span>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
