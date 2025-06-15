@@ -79,8 +79,11 @@ body {
   & span {
     font-family: "lobster_1.3regular";
     color: #fee6cc;
-    font-size: clamp(1.5rem, 5vw, 5rem);
+    font-size: clamp(1.5rem, 2.5vw, 5rem);
     text-shadow: 5px 5px 2px black;
+  }
+  & img {
+    width: min(80px, 20%);
   }
 }
 .credits {
