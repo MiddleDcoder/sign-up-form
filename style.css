@@ -67,6 +67,7 @@ body {
   flex: 1 1 60vw;
 }
 .logo {
+  position: relative;
   text-align: center;
   background: #fee6cc42;
   margin-top: 30%;
@@ -98,10 +99,23 @@ body {
     color: var(--primary-color);
   }
 }
-p {
-  width: clamp(45ch, 50%, 75ch);
-}
 .form-controls > div {
   display: flex;
   gap: 20px;
+}
+.intro-text {
+  padding: 4em 0 2em 2em;
+  background-color: #efe2db;
+  width: 100%;
+
+  p {
+    font-family: "ralewayregular";
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: clamp(45ch, 50%, 75ch);
+  }
+}
+.top-wrapper {
+  height: ;
+  background-color: #dc750e;
 }
