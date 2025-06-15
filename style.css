@@ -22,6 +22,7 @@
 }
 :root {
   --primary-color: #fee6cc;
+  --brown-color: #6b4f4f;
 }
 
 /* Basic Reset: Needed Only */
@@ -70,7 +71,7 @@ body {
   position: relative;
   text-align: center;
   background: #fee6cc42;
-  margin-top: 30%;
+  margin-top: calc(4rem + 95px);
   align-items: center;
   display: flex;
   justify-content: center;
@@ -112,6 +113,7 @@ body {
     font-family: "ralewayregular";
     font-weight: bold;
     font-size: 1.2rem;
+    color: var(--brown-color);
     width: clamp(45ch, 50%, 75ch);
   }
 }
