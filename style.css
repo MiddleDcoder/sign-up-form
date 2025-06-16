@@ -100,7 +100,7 @@ body {
     color: var(--primary-color);
   }
 }
-.form-controls > div {
+.form-controls .set {
   display: flex;
   gap: 20px;
 }
@@ -116,4 +116,7 @@ body {
     color: var(--brown-color);
     width: clamp(45ch, 50%, 75ch);
   }
+}
+.set div label {
+  display: block;
 }
