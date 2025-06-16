@@ -62,7 +62,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: no-repeat center url(img/left-bg.jpg);
+  background: url(img/left-bg.jpg) center center / cover no-repeat;
 }
 .right-col {
   flex: 1 1 60vw;
@@ -116,8 +116,4 @@ body {
     color: var(--brown-color);
     width: clamp(45ch, 50%, 75ch);
   }
-}
-.top-wrapper {
-  height: ;
-  background-color: #dc750e;
 }
