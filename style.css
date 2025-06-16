@@ -74,6 +74,9 @@ body {
     flex-shrink: 1;
     flex-basis: auto;
   }
+  & > :nth-child(2) {
+    align-content: center;
+  }
 }
 .logo {
   position: relative;
@@ -108,9 +111,11 @@ body {
     color: var(--primary-color);
   }
 }
-#form-controls .set {
-  display: flex;
-  gap: 20px;
+#form-controls {
+  .set {
+    display: flex;
+    gap: 20px;
+  }
 }
 .intro-text {
   padding: 4em 0 2em 2em;
