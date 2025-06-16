@@ -66,6 +66,14 @@ body {
 }
 .right-col {
   flex: 1 1 60vw;
+  display: flex;
+  flex-direction: column;
+
+  & > div {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+  }
 }
 .logo {
   position: relative;
@@ -100,7 +108,7 @@ body {
     color: var(--primary-color);
   }
 }
-.form-controls .set {
+#form-controls .set {
   display: flex;
   gap: 20px;
 }
