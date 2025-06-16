@@ -63,6 +63,15 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background: url(img/left-bg.jpg) center center / cover no-repeat;
+
+  & .item-one {
+    flex: auto;
+    align-content: end;
+  }
+  & .item-two {
+    flex: 2;
+    align-content: end;
+  }
 }
 .right-col {
   flex: 1 1 60vw;
@@ -82,11 +91,9 @@ body {
   position: relative;
   text-align: center;
   background: #fee6cc42;
-  margin-top: calc(4rem + 95px);
   align-items: center;
   display: flex;
   justify-content: center;
-  padding: 12px 0;
   gap: 8px;
 
   & span {
