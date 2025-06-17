@@ -125,7 +125,8 @@ body {
   }
 }
 .intro-text {
-  padding: 4em 0 2em 2em;
+  align-content: center;
+  padding: 2em;
   background-color: #efe2db;
   width: 100%;
 
@@ -139,4 +140,11 @@ body {
 }
 .set div label {
   display: block;
+}
+.links {
+  padding: 2em;
+
+  & > * {
+    margin-bottom: 24px;
+  }
 }
