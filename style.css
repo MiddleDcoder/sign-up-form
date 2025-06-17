@@ -119,9 +119,17 @@ body {
   }
 }
 #form-controls {
+  padding: 2em;
+
   .set {
     display: flex;
     gap: 20px;
+  }
+  h2 {
+    font-family: "ralewayregular";
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 8px;
   }
 }
 .intro-text {
