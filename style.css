@@ -97,7 +97,7 @@ body {
   gap: 8px;
 
   & span {
-    font-family: "lobster_1.3regular";
+    font-family: "lobster_1.3regular", sans-serif;
     color: #fee6cc;
     font-size: clamp(1.5rem, 2.5vw, 5rem);
     text-shadow: 5px 5px 2px black;
@@ -109,7 +109,7 @@ body {
 }
 .credits {
   text-align: center;
-  font-family: "open_sanslight";
+  font-family: "open_sanslight", serif;
   color: #fff;
   font-size: 0.75rem;
   padding-bottom: 12px;
@@ -126,10 +126,15 @@ body {
     gap: 20px;
   }
   h2 {
-    font-family: "ralewayregular";
+    font-family: "ralewayregular", serif;
     font-size: 2rem;
     font-weight: bold;
     padding-bottom: 8px;
+  }
+  label {
+    font-family: "open_sanslight", serif;
+    font-weight: bold;
+    font-size: 1rem;
   }
 }
 .intro-text {
@@ -139,7 +144,7 @@ body {
   width: 100%;
 
   p {
-    font-family: "ralewayregular";
+    font-family: "ralewayregular", serif;
     font-weight: bold;
     font-size: 1.2rem;
     color: var(--brown-color);
