@@ -156,6 +156,7 @@ body {
 }
 .links {
   padding: 2em;
+  font-family: "open_sanslight", serif;
 
   & > * {
     margin-bottom: 24px;
@@ -176,6 +177,16 @@ body {
   button:focus-visible {
     background: #8e6e63;
     box-shadow: 0 0 12px 3px rgba(142, 110, 99, 0.6);
+    outline-offset: 2px;
+  }
+  a {
+    color: #a9746e;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  a:hover {
+    color: #6b4f4f;
     outline-offset: 2px;
   }
 }
