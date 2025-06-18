@@ -167,4 +167,10 @@ body {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     user-select: none;
   }
+  button:hover,
+  button:focus-visible {
+    background: #8e6e63;
+    box-shadow: 0 0 12px 3px rgba(142, 110, 99, 0.6);
+    outline-offset: 2px;
+  }
 }
