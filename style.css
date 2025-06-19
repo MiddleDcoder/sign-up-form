@@ -23,6 +23,7 @@
 :root {
   --primary-color: #fee6cc;
   --brown-color: #6b4f4f;
+  --pad-left: max(3rem, 5vw);
 }
 
 /* Basic Reset: Needed Only */
@@ -120,7 +121,7 @@ body {
   }
 }
 #form-controls {
-  padding: 2em;
+  padding: var(--pad-left);
 
   .set {
     display: flex;
@@ -151,6 +152,7 @@ body {
     background: #fff9f4;
     color: #4b2e22;
     transition: border-color 0.3s ease;
+    font-family: "ralewayregular", serif;
   }
   input:focus {
     outline: none;
@@ -160,7 +162,7 @@ body {
 }
 .intro-text {
   align-content: center;
-  padding: 2em;
+  padding: var(--pad-left);
   background-color: #efe2db;
   width: 100%;
 
@@ -176,7 +178,7 @@ body {
   display: block;
 }
 .links {
-  padding: 2em;
+  padding: var(--pad-left);
   font-family: "open_sanslight", serif;
 
   & > * {
