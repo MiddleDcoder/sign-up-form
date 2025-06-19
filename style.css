@@ -131,7 +131,7 @@ body {
     font-size: 2rem;
     font-weight: bold;
     padding-bottom: 8px;
-    color: #6b4f4f;
+    color: var(--brown-color);
   }
   label {
     font-family: "open_sanslight", serif;
@@ -139,7 +139,7 @@ body {
     font-size: 1rem;
     margin-bottom: 8px;
     user-select: text;
-    color: #6b4f4f;
+    color: var(--brown-color);
   }
   input {
     margin-bottom: 18px;
@@ -183,7 +183,7 @@ body {
     margin-bottom: 24px;
   }
   button {
-    background: #6b4f4f;
+    background: var(--brown-color);
     color: #fff9f4;
     font-weight: 700;
     font-size: 1.1rem;
@@ -207,7 +207,7 @@ body {
     cursor: pointer;
   }
   a:hover {
-    color: #6b4f4f;
+    color: var(--brown-color);
     outline-offset: 2px;
   }
 }
