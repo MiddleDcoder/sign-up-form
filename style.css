@@ -159,7 +159,7 @@ body {
     border-color: #a9746e;
     box-shadow: 0 0 6px 2px rgba(169, 116, 110, 0.6);
   }
-  input:invalid {
+  input:focus:invalid {
     border-color: red;
   }
 }
