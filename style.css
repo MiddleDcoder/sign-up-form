@@ -174,7 +174,7 @@ body {
     font-weight: bold;
     font-size: 1.2rem;
     color: var(--brown-color);
-    width: clamp(45ch, 50%, 75ch);
+    width: min(80vw, 45ch);
   }
 }
 .set div label {
