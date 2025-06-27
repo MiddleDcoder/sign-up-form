@@ -220,4 +220,9 @@ body {
   body {
     flex-direction: column;
   }
+  #form-controls {
+    label {
+      font-size: 0.75rem;
+    }
+  }
 }
