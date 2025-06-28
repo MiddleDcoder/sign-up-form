@@ -224,5 +224,11 @@ body {
     label {
       font-size: 0.75rem;
     }
+    input {
+      font-size: 0.75rem;
+    }
+  }
+  .intro-text p {
+    font-size: 0.95rem;
   }
 }
