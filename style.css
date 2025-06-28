@@ -231,4 +231,7 @@ body {
   .intro-text p {
     font-size: 0.95rem;
   }
+  .left-col {
+    flex-basis: 80vw;
+  }
 }
