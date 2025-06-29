@@ -23,7 +23,7 @@
 :root {
   --primary-color: #fee6cc;
   --brown-color: #6b4f4f;
-  --pad-left: max(3rem, 5vw);
+  --pad-left: max(1.5rem, 5vw);
 }
 
 /* Basic Reset: Needed Only */
@@ -221,6 +221,10 @@ body {
     flex-direction: column;
   }
   #form-controls {
+    .set {
+      flex-wrap: wrap;
+      gap: 5px;
+    }
     label {
       font-size: 0.75rem;
     }
